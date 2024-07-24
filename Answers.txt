@@ -1,0 +1,90 @@
+ASSIGNMENT - Flexbox in CSS
+
+Que1:- Describe the main difference between CSS Flexbox layout model and CSS Grid layout model. When would you choose to one over the other?
+
+
+Ans:- Both the models is used to design the layout of our webpage. But the main difference between these two is:-
+
+Flexbox:- it is used to design the layout in one dimension either row or column.
+
+Grid:- it is used to design the layout in two dimension - rows and column at the same time.
+
+
+
+when to use Flexbox:-
+1. when we have small and simple layout design
+2. when we need content first design
+
+
+when to use Grid:-
+1. when we have complex layout design
+2. when we need layout first design
+
+
+
+
+Que2:- Explain the role of the following key properties in the flexbox layout model ?
+Ans:-
+
+1. Justify-content :- it is used to align the items along the main axis(Horizontally) of a flex container.    
+
+
+Syntax:- justify-content: flex-start| flex-end| center| space-between| space-around| space-evenly| initial| inherit 
+
+* flex-start: Default value. Aligns flex items at the start of the container.
+
+* flex-end: Aligns flex items at the end of the container.
+
+* center: Aligns flex items at the center of the container.
+
+* space-between: Distributes items evenly with the first item at the start and the last item at the end.
+
+* space-around: Distributes items with equal spacing before, between, and after each item.
+
+* space-evenly: Distributes items with equal spacing between them, but the spacing from the corners is equal.* 
+
+* initial: Sets the property to its default value.
+
+* inherit: Inherits the value from its parent element.
+
+
+
+2. align-items :- it is used to align the items along the cross axis(Vertically) of a flex container.It accepts values like flex-start, flex-end, center, baseline, and stretch, controlling the vertical alignment of items in a flexbox.
+
+
+
+3. gap:- it defines the size of the gap between rows and columns in flexbox, grid etc. 
+
+
+
+4. flex-direction:- it specifies the direction of the flexible items. by default value is row. we can change the value according to design need:-
+
+flex-direction: row| column| row-reverse| column-reverse
+
+
+5. flex-wrap:- it specifies whether the flexible items should wrap or not.
+
+flex-wrap: wrap| no-wrap
+
+
+
+
+
+Que3:- Write a code to center a div using CSS Flexbox?
+
+Ans:- please refer the code file Que3.html and Que3.css.
+
+
+
+
+Que 4:- A client of yours want to add a pricing section on their website to showcase their newly introduced premium plans?
+
+Ans:- please refer the code file Que4.html and Que4.css.
+
+
+
+
+
+Que 5:- build a cline of IRCTC ticket booking page?
+
+Ans:- please refer the code file Que5.html and Que5.css.

@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 25px; 
+}
+
+ul{
+    display: flex;
+    align-items: center ;
+    gap: 15px;
+    list-style-type: none;
+}
+
+li{
+    font-size: 16px;
+    
+}
+
+.one{
+    background-color: darkblue;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: 500;
+}
+
+.two{
+    color: darkorange;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: darkorange;
+    text-underline-offset: 5px;
+}
+section{
+    position: relative;
+}
+
+section img{
+    width: 100%;
+    height: 800px;
+}
+
+.ticket{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 40px;
+    margin-left: 150px;
+}
+
+.pnr{
+    width: 400px;
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.charts{
+    width: 400px;
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+.book_ticket{
+    width: 810px;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    margin-left: 150px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book_ticket span{
+    font-size: 30px;
+    color: darkblue;
+    font-weight: 500;
+}
+
+.calender{
+    width: 760px;
+    background-color: #fff;
+    position: absolute;
+    top: 160px;
+    margin-left: 150px;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+.row1{
+    display: flex;
+    gap: 10px;
+}
+
+.row1 input[type=text]
+{
+    width: 55%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.row1 input[type=date]
+{
+    width: 30%;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 17px;
+    color: darkblue;
+
+}
+.row2{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.row2 input[type=text]
+{
+    width: 55%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.row2 select{
+    width: 36%;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 17px;
+    color: darkblue;
+}
+.row3{
+    margin-top: 40px;
+}
+
+.row3 select{
+    width: 55%;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 17px;
+    color: darkblue;
+}
+
+.row4{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.row4 label{
+    color: darkblue;
+}
+
+.check
+{
+    
+   margin-left: 40px;
+   margin-top: 15px;
+}
+
+.check4{
+    margin-top: 10px;
+}
+
+.row5{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.row5 .btn1{
+    padding: 10px 60px;
+    background-color:#fb792b;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.row5 .btn2{
+    padding: 10px 25px;
+    background-color:#fb792b;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.indian{
+    position: absolute;
+    top: 0;
+    right: 150px;
+    margin-left: 150px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.in{
+    font-size: 40px;
+    color: darkblue;
+}
+
+.safe{
+    font-size: 20px;
+      
+}
+
+.span1{
+    color: green;
+}
+
+.span2{
+    color: orangered;
+}
+
+.span3{
+    color: darkblue;
+}
